@@ -6,8 +6,13 @@ on:
     branches:
       - main
 
+concurrency:
+  cancel-in-progress: true
+  group: deploy
+
 jobs:
   build:
+    name: Build
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
@@ -20,6 +25,7 @@ jobs:
         with:
           path: build
   deploy:
+    name: Deploy
     needs: build
     permissions:
       pages: write
