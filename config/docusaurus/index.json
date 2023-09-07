@@ -2,7 +2,7 @@
   "label": "Settings",
   "navbar": [
     {
-      "label": "Docs",
+      "label": "Dokumentation",
       "link": "doc",
       "docLink": "docs/intro.mdx",
       "position": "left"
@@ -13,22 +13,9 @@
       "position": "left"
     },
     {
-      "label": "MDX Page",
-      "link": "page",
-      "docLink": "src/pages/Test-MDX-Page.mdx",
-      "pageLink": "src/pages/Test-MDX-Page.mdx",
-      "position": "left"
-    },
-    {
-      "label": "Docusaurus GitHub",
+      "label": "Dein-Ticket.Shop",
       "link": "external",
-      "externalLink": "https://github.com/facebook/docusaurus",
-      "position": "right"
-    },
-    {
-      "label": "Tina",
-      "link": "external",
-      "externalLink": "https://tina.io/",
+      "externalLink": "https://dein-ticket.shop",
       "position": "right"
     }
   ],
@@ -41,45 +28,31 @@
     "style": "dark",
     "links": [
       {
-        "title": "Docs",
+        "title": "Rechtliches",
         "items": [
           {
-            "label": "Introduction",
-            "to": "docs/intro.mdx",
-            "_template": "internal"
-          }
-        ]
-      },
-      {
-        "title": "Community",
-        "items": [
-          {
-            "label": "Stack Overflow",
-            "href": "https://stackoverflow.com/questions/tagged/docusaurus",
+            "label": "Impressum",
+            "href": "https://dein-ticket.shop/legal/imprint",
             "_template": "external"
           },
           {
-            "label": "Discord",
-            "href": "https://discordapp.com/invite/docusaurus",
+            "label": "Datenschutzerklärung",
+            "href": "https://dein-ticket.shop/legal/privacy",
             "_template": "external"
           },
           {
-            "label": "Twitter",
-            "href": "https://twitter.com/docusaurus",
+            "label": "AGB",
+            "href": "https://dein-ticket.shop/legal/terms",
             "_template": "external"
           }
         ]
       },
       {
-        "title": "More",
+        "title": "Kontakt",
         "items": [
           {
-            "label": "Blog",
-            "_template": "blog"
-          },
-          {
-            "label": "GitHub",
-            "href": "https://github.com/facebook/docusaurus",
+            "label": "Kontaktformular",
+            "href": "https://dein-ticket.shop/contact",
             "_template": "external"
           }
         ]
@@ -88,5 +61,5 @@
     "copyright": "Dein-Ticket.Shop UG (haftungsbeschränkt). Built with ♥️, Docusaurus and TinaCMS"
   },
   "url": "https://docs.dein-ticket.shop",
-  "tagline": "dein-ticket.shop hilfe docs"
+  "tagline": "Hilfe, Anleitungen und FAQs"
 }
