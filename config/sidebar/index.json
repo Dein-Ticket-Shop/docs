@@ -9,6 +9,10 @@
           "document": "docs/registrierung.mdx",
           "label": "Registrierung",
           "_template": "doc"
+        },
+        {
+          "document": "docs/sepa-glaeubiger-id.mdx",
+          "_template": "doc"
         }
       ],
       "_template": "category"
