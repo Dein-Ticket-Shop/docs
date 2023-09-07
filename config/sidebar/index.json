@@ -2,14 +2,20 @@
   "label": "Docs Sidebar",
   "items": [
     {
-      "document": "docs/intro.mdx",
-      "_template": "doc"
+      "title": "Registrierung",
+      "link": "none",
+      "items": [
+        {
+          "document": "docs/registrierung.mdx",
+          "label": "Registrierung",
+          "_template": "doc"
+        }
+      ],
+      "_template": "category"
     },
     {
-      "title": "Testindex",
-      "link": "generated",
-      "docLink": "docs/intro.mdx",
-      "_template": "category"
+      "document": "docs/intro.mdx",
+      "_template": "doc"
     }
   ]
 }
