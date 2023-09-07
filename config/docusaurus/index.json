@@ -33,10 +33,10 @@
     }
   ],
   "logo": {
-    "alt": "Tina",
-    "src": "/img/tina-icon.svg"
+    "alt": "Dein-Ticket.Shop Logo",
+    "src": "/img/logo_square_transparent_128x128.png"
   },
-  "title": "Tinasaurus",
+  "title": "Dein-Ticket.Shop Docs",
   "footer": {
     "style": "dark",
     "links": [
@@ -85,7 +85,8 @@
         ]
       }
     ],
-    "copyright": "My Project, Inc. Built with Docusaurus."
+    "copyright": "Dein-Ticket.Shop UG (haftungsbeschränkt). Built with ♥️, Docusaurus and TinaCMS"
   },
-  "url": "https://tinasaurus.vercel.app/"
+  "url": "https://docs.dein-ticket.shop",
+  "tagline": "dein-ticket.shop hilfe docs"
 }
