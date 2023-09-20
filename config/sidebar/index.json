@@ -2,17 +2,6 @@
   "label": "Docs Sidebar",
   "items": [
     {
-      "title": "Vorverkauf",
-      "link": "",
-      "items": [
-        {
-          "document": "docs/direkte-verlinkung.mdx",
-          "_template": "doc"
-        }
-      ],
-      "_template": "category"
-    },
-    {
       "document": "docs/intro.mdx",
       "_template": "doc"
     },
@@ -27,6 +16,17 @@
         },
         {
           "document": "docs/sepa-glaeubiger-id.mdx",
+          "_template": "doc"
+        }
+      ],
+      "_template": "category"
+    },
+    {
+      "title": "Vorverkauf",
+      "link": "",
+      "items": [
+        {
+          "document": "docs/direkte-verlinkung.mdx",
           "_template": "doc"
         }
       ],
