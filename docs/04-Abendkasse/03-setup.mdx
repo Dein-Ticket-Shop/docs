@@ -5,6 +5,7 @@ title: Aufbau und Konfiguration
 <Tabs>
 <TabItem value="Mit Kartenzahlung">
 
+## Aufbau
 1. Packen Sie die Kiste aus. Es sollte enthalten sein (alles 1x):
     - Tablet + Netzteil
     - Bondrucker + Netzteil + USB-Kabel
@@ -12,13 +13,52 @@ title: Aufbau und Konfiguration
     - Ersatz-Papierrolle
     - 3er Mehrfachsteckdose
     Eventuell liegt noch ein PDA (Smartphone-ähnliches Gerät zum Scannen von Tickets) bei. Siehe [PDA Anleitung](./pda) für weitere Informationen.
-2. Versorgen Sie das Tablet mit dessen Netzteil über die Mehrfachsteckdose mit Strom. Wiederholen Sie dies für den Bondrucker und das Kartenlesegerät.
+2. Versorgen Sie das **Tablet** mit dessen Netzteil über die Mehrfachsteckdose mit **Strom**. Wiederholen Sie dies für den **Bondrucker** und das **Kartenlesegerät**. Wenn die Akkus der Geräte voll sind, können Sie die Netzteile auch wieder entfernen, es schadet aber nicht, sie angeschlossen zu lassen.
+3. Verbinden Sie den **Bondrucker** mit dem **USB-B Kabel** mit dem **Tablet**.
+4. **Schalten** Sie den **Bondrucker** am Schalter vorne rechts **ein**.
+5. **Starten** Sie das **Tablet**. Die Abendkassen-Software startet automatisch, haben Sie etwas Geduld.
+## Einrichtung
+6. Verbinden Sie das Tablet mit dem richtigen WLAN-Netzwerk. Dazu haben Sie zwei Möglichkeiten:
+    1. Im Hauptmenü klicken Sie auf "WLAN" und anschließend in der Zeile des richtigen Netzwerks auf "Verbinden". Geben Sie das Passwort ein und warten Sie auf die Bestätigung. Kehren Sie über den Pfeil nach links (oben) ins Hauptmenü zurück.
+    2. Unten rechts in der Windows-Taskleiste klicken Sie auf das WLAN-Symbol. Wählen Sie das richtige Netzwerk aus und geben Sie das Passwort ein. Warten Sie auf die Bestätigung.
+7. Melden Sie sich an, entweder mit einem QR Code oder mit Zugangsdaten:
+    1. **Mit QR Code**: Klicken Sie auf *mit QR Code*. Warten Sie, bis die Kamera erscheint und halten Sie den QR Code (auf der Anleitung, siehe [hier](./backend-setup) für mehr Infos) vor die Kamera. Warten Sie, bis Sie angemeldet sind.
+    2. **Mit Zugangsdaten**: Klicken Sie auf *mit Zugangsdaten*. Geben Sie die Zugangsdaten ein und warten Sie, bis Sie angemeldet sind.
+8. Wählen Sie die richtige Veranstaltung aus.
+### Kartenlesegerät
+9. **Schalten** Sie das **Kartenlesegerät** am Schalter an der Seite **ein**. Warten Sie, bis es hochgefahren ist.
+10. Konfigurieren Sie die WLAN-Verbindung des Kartenlesegeräts:
+    1. Eventuell werden Sie nach der Sprache und Ihrem Land gefragt. Wählen Sie *Deutsch* sowie *Deutschland* aus. Falls nicht, überspringen Sie diesen Schritt.
+    1. Nun sollten Sie im WLAN Menü landen. Das erkennen Sie am Text *WLAN-Newtzwerk auswählen*. Falls nicht, lesen Sie unten, wie Sie ins Menü gelangen und klicken Sie anschießend auf *Netzwerk*.
+    Wählen Sie das richtige Netzwerk aus und geben falls nötig das Passwort ein. Haben Sie etwas Geduld, das dauert ein paar Sekunden. Klicken Sie anschließend auf *Weiter* und warten Sie, bis die Verbindung hergestellt ist.
+    1. Nun wird Ihr gewähltes Hintergrundbild oder *stripe* angezeigt. Das bedeutet, dass das Kartenlesegerät mit dem Internet verbunden und bereit ist.
+
+:::tip So gelangen Sie in das Menü des Kartenlesegeräts
+1. Wischen Sie vom linken Rand des Bildschirms nach rechts, um die Seitenleiste zu öffnen.
+2. Klicken Sie auf *Einstellungen*.
+3. Geben Sie die Admin-PIN ein. Diese ist immer **07193**.
+4. Nun sehen Sie die verschiedenen Menüpunkte.
+:::
+
+### Bondrucker Test
+11. Auf dem Tablet sehen Sie in der Menüleiste oben drei farbige Kästchen. Wenn Sie auf das mit dem Drucker-Symbol klicken, wird ein Testbeleg gedruckt. So können Sie sicherstellen, dass der Bondrucker richtig angeschlossen ist.
 
 
 </TabItem>
 <TabItem value="Nur Barzahlung">
 
-1. Verbinden Sie den Bondrucker mit dem Laptop  
+## Aufbau
+1. Packen Sie die Kiste aus. Es sollte enthalten sein (alles 1x):
+    - Bondrucker + Netzteil + USB-Kabel
+    - Ersatz-Papierrolle
+    - 3er Mehrfachsteckdose
+    Eventuell liegt noch ein PDA (Smartphone-ähnliches Gerät zum Scannen von Tickets) bei. Siehe [PDA Anleitung](./pda) für weitere Informationen.
+2. Versorgen Sie den **Bondrucker** mit dessen Netzteil über die Mehrfachsteckdose mit **Strom**. Wenn die Akkus der Geräte voll sind, können Sie die Netzteile auch wieder entfernen, es schadet aber nicht, sie angeschlossen zu lassen.
+3. **Schalten** Sie den **Bondrucker** am Schalter vorne rechts **ein**.
+4. **Starten** Sie Ihren **Laptop** und [Google Chrome](https://www.google.com/intl/de_de/chrome/). Geben Sie in die Adresszeile `[domain].vvk.dein-ticket.shop` ein und drücken Sie Enter. Ersetzen Sie hierbei `[domain]` durch die Domain, die Sie von uns erhalten haben. Diese steht auch auf dem Anleitungs-PDF. Melden Sie sich mit den Zugangsdaten an, die Sie auch auf dem PDF finden.
+5. Wählen Sie die richtige Veranstaltung aus.
+### Bondrucker Test
+6. Auf dem Tablet sehen Sie in der Menüleiste oben ein farbiges Kästchen mit dem Drucker-Symbol. Wenn Sie es anklicken, wird ein Testbeleg gedruckt. So können Sie sicherstellen, dass der Bondrucker richtig angeschlossen ist.
 
 </TabItem>
 </Tabs>
