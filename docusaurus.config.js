@@ -125,14 +125,10 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: docusaurusData.title || "",
+        title: "Dokumentation",
         logo: {
-          alt: docusaurusData?.logo?.alt
-            ? docusaurusData?.logo?.alt
-            : "My Logo",
-          src: docusaurusData?.logo?.src
-            ? docusaurusData?.logo?.src
-            : "img/logo.svg",
+          alt: docusaurusData?.logo?.alt,
+          src: docusaurusData?.logo?.src,
         },
         items: docusaurusData.navbar.map((item) => {
           return formatNavbarItem(item);
