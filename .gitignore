@@ -21,3 +21,10 @@ yarn-error.log*
 
 node_modules
 tina/__generated__
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
