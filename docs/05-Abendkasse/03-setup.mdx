@@ -65,3 +65,18 @@ title: Aufbau und Konfiguration
 
 </TabItem>
 </Tabs>
+
+<details>
+    <summary>Bon-Drucker Problembehebung</summary>
+
+Falls der Bondrucker nicht erkannt wird und er erstmalig verwendet ist, kann es notwendig sein, den richtigen Betriebsmodus auszuwählen:
+1. Laden Sie dafür [das Konfigurationstool herunter](http://u.pc.cd/0AsrtalK)
+2. Öffnen Sie die Datei und starten Sie die enthaltene Anwendung
+3. Schließen Sie den Bondrucker per USB an den Computer an und stellen Sie sicher, dass er eingeschaltet ist
+4. Wählen Sie *USB* und klicken Sie auf *Selftest*. Der Drucker sollte nun einen Testbeleg drucken.
+    ![Bondrucker Konfigurationstool](/img/docs/boxoffice/printer_config_tool.png)
+5. Klicken Sie auf *Advanced*, danach auf *Set Virtual COM* bei *USB MODE Setting*. Schließen Sie das Fenster mit *return* unten rechts.
+    ![Bondrucker Konfigurationstool](/img/docs/boxoffice/printer_config_tool_advanced.png)
+6. Nun sollte der Drucker vom System erkannt werden. Falls nicht, benötigen Sie noch den Treiber, den Sie [hier herunterladen können](http://u.pc.cd/UeTctalK). Entpacken Sie die Datei und installieren Sie den Treiber. Starten Sie anschließend den Computer neu.
+
+</details>
