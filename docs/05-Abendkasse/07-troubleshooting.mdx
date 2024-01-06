@@ -7,6 +7,21 @@ Sollten doch einmal Probleme auftreten, finden Sie hier einige Lösungsansätze 
 ## Kein Drucker verfügbar
 Kontrollieren Sie, dass der Drucker eingeschaltet ist und mit dem USB Kabel mit dem Tablet oder Laptop verbunden ist. Starten Sie den Drucker neu, indem Sie ihn vom Strom trennen und wieder anschließen. Klicken Sie auf das Drucker Symbol in der oberen Statusleiste, um die Verbindung neu aufzubauen.
 
+Falls der Bondrucker immernoch nicht erkannt wird und er erstmalig verwendet ist, kann es notwendig sein, den richtigen Betriebsmodus auszuwählen.
+<details>
+<summary>Bondrucker Betriebsmodus</summary>
+
+1. Laden Sie dafür [das Konfigurationstool herunter](http://u.pc.cd/0AsrtalK)
+2. Öffnen Sie die Datei und starten Sie die enthaltene Anwendung
+3. Schließen Sie den Bondrucker per USB an den Computer an und stellen Sie sicher, dass er eingeschaltet ist
+4. Wählen Sie *USB* und klicken Sie auf *Selftest*. Der Drucker sollte nun einen Testbeleg drucken.
+    ![Bondrucker Konfigurationstool](/img/docs/boxoffice/printer_config_tool.png)
+5. Klicken Sie auf *Advanced*, danach auf *Set Virtual COM* bei *USB MODE Setting*. Schließen Sie das Fenster mit *return* unten rechts.
+    ![Bondrucker Konfigurationstool](/img/docs/boxoffice/printer_config_tool_advanced.png)
+6. Nun sollte der Drucker vom System erkannt werden. Falls nicht, benötigen Sie noch den Treiber, den Sie [hier herunterladen können](http://u.pc.cd/UeTctalK). Entpacken Sie die Datei und installieren Sie den Treiber. Starten Sie anschließend den Computer neu.
+
+</details>
+
 ## Kartenlesegerät nicht verbunden
 Verbinden Sie es neu, indem Sie auf Einstellungen (Zahnrad) in der oberen Statusleiste klicken und dann bei *Kartenlesegerät* den Anweisungen folgen. Eventuell müssen Sie vorher ein zuvor verbundenes Gerät entfernen, indem Sie auf *Trennen* klicken.
 
